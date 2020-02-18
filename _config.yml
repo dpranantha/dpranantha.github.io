@@ -4,7 +4,5 @@ description: >
   the daily life of a software engineer
 baseurl: ""
 linkedin: danupranantha
-theme: minima
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 markdown: kramdown
-plugins:
-  - jekyll-feed
