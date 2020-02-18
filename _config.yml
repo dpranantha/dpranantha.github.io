@@ -1,7 +1,7 @@
-title: Danu's blog
-email: danu.pranantha@gmail.com
+title: Danu's homepage
+email: danu.pranantha(at)gmail.com
 description: >
-  daily life of a software engineer
+  the daily life of a software engineer
 baseurl: ""
 theme: minima
 markdown: kramdown

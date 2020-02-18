@@ -4,15 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My name is Danu Pranantha. I am a software engineer at bol.com, Utrecht. I am an Indonesian of Javanese descent (with a bit of non-visible Dutch flavor from my great grandfather, whose surname and first-name contain Pol and Johannes, respectively). 
+Due to course of life, I currently reside in Rotterdam with my family: a wife, a son, and two cats.
