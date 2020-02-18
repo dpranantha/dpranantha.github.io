@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+title: Danu's blog
+email: danu.pranantha@gmail.com
+description: >
+  daily life of a software engineer
+baseurl: ""
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
