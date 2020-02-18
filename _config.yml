@@ -3,6 +3,5 @@ email: danu.pranantha(at)gmail.com
 description: >
   the daily life of a software engineer
 baseurl: ""
-linkedin: danupranantha
 remote_theme: "mmistakes/jekyll-theme-basically-basic"
 markdown: kramdown
