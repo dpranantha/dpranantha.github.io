@@ -3,6 +3,7 @@ email: danu.pranantha(at)gmail.com
 description: >
   the daily life of a software engineer
 baseurl: ""
+linkedin: danupranantha
 theme: minima
 markdown: kramdown
 plugins:
