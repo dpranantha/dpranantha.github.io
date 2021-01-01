@@ -56,8 +56,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Danu Pranantha"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Danu Pranantha, PhD"
+  avatar : "/assets/images/my-cat.jpg"
   bio    : "A coding alien lives in the Netherlands."
   links:
     - label: "Website"
