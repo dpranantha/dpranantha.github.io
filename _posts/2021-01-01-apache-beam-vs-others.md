@@ -1,6 +1,6 @@
 ---
 title: "Using Apache Beam vs other frameworks for bulk data processing"
-date: 2020-01-01 14:15:00+01:00
+date: 2021-01-01 14:15:00+01:00
 categories:
 - Coding
 - Data engineering
