@@ -28,6 +28,10 @@ analytics:
   google:
     tracking_id: "G-WT7J4Z4YFQ"
     anonymize_ip: false # default
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "dpranantha"
 
 # Build settings
 markdown: kramdown
