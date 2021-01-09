@@ -1,5 +1,6 @@
 ---
 title: "Transforming data class objects to Google BigQuery TableRow via reflection in Kotlin"
+permalink: /transforming-data-class-objects-to-gbq-tablerow-via-reflection-in-kotlin
 date: 2021-01-06 21:00:00+01:00
 categories:
 - Coding
