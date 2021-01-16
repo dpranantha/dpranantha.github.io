@@ -29,7 +29,8 @@ Thus, when we can use Apache Beam? Answering based on my own experiences, I have
    Apache Spark/Pyspark has tons of useful libraries intended for such tasks.
 3. We want to perform event stream processing that doesn't care about ordering nor duplicates nor calculating time spent on an event,
    otherwise, opt for Apache Flink. Although using Apache Flink is harder in terms of infrastructural maintenance and scaling,
-   at least it has ordering and exactly once guarantees, and it is easy to perform calculation of time spent on an event.
+   at least it has ordering and exactly once guarantees, and it is easy to perform calculation of time spent on an event. 
+   On the other hand, if we want to apply machine learning on event stream, Apache Spark can be also of use (i.e., DStream with windowing function).
    
 I have created an example of bulk data processing using Apache Beam available at my github repo: [apache-beam-kotlin-bulk-sample](https://github.com/dpranantha/apache-beam-kotlin-bulk-sample). 
 The example is adapted from Apache Beam example ported into Kotlin and added with an integration test.
