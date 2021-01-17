@@ -13,8 +13,8 @@ tags:
 - Google BigQuery API
 ---
 
-I had a use case where I needed to transform multiple data classes into [Google BigQuery TableRow](https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/java/latest/index.html?com/google/api/services/bigquery/model/TableRow.html) model.
-It is relatively straightforward if we have data classes with only a couple mandatory and optional properties as follows.
+I had a use case to transform multiple data classes into the [Google BigQuery TableRow](https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/java/latest/index.html?com/google/api/services/bigquery/model/TableRow.html) model.
+It is relatively straightforward if we have data classes with only a couple of mandatory and optional properties.
 
 ```kotlin
 data class ExampleClass(
@@ -28,7 +28,7 @@ data class ExampleClass(
    val nullableDateTime: DateTime?)
 ```
 
-Then, we can simply transform it into Google BigQuery TableRow model like below.
+Then, we can simply transform the ExampleClass above into the Google BigQuery TableRow model as below.
 
 ```kotlin
 val example = ExampleClass("s", 1.0, null, true, 1, 0.1, 2.0f, null)
@@ -47,14 +47,14 @@ val transformedExample = example.let {
 ```
 
 We can further extract the codes inside `let` into an extension function of ExampleClass. However, the problem is that 
-my data classes have a lot of fields, i.e., between 50 and 100. This makes transformation logic rather tedious, not to mention extra effort for codes maintenance.
+my data classes have many fields, i.e., between 50 and 100. It makes transformation logic rather tedious, not to mention extra effort for code maintenance.
 
-To avoid writing repetitive, and long lines of codes, I had to once again rely on my old friend, reflection (using [kotlin-reflect](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/)).
-So instead of writing transformation for each data class and accessing each of its property member, I just need to use reflection to fill out all the TableRow field. I can even set a table schema
-for Google BigQuery table using reflection, since it has all information on the nullability and type of each property within a class.
+To avoid writing repetitive and long lines of code, I had to once again rely on my old friend, reflection (using [kotlin-reflect](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/)).
+Thus, instead of writing transformation for each data class and accessing each of its property members, I can use reflection to fill out all the TableRow fields. 
+Also, I can set a table schema for a Google BigQuery table via reflection. Kotlin reflection has all information on the nullability and type of each property within a class.
 
-The codes are really concise and save me from trouble in both maintaining the codes like adding/removing property from a data class (assuming there is a design process to maintain `backward-compatibility`),
-or even introducing new data classes into the codes. Here is what it looks like. 
+The codes are concise and save me some trouble from maintaining the code, such as adding/removing a property from a data class (assuming there is a design process to maintain `backward-compatibility`) 
+or introducing new data classes into the codes. Here is what it looks like
 
 ```kotlin
 inline fun <reified T : Any> T.toTableRow(): TableRow {
@@ -67,16 +67,16 @@ inline fun <reified T : Any> T.toTableRow(): TableRow {
 }
 ```
 
-It is basically an extension function for any object. We need an `inline function` with `reified` type parameters to access
-type `T` and object within property `prop.get()` function. Now, I can simply write the transformation for `ExampleClass` below.
+It is an extension function for any object. We need an `inline function` with `reified` type parameters to access
+type `T` and object within property `prop.get()` function. Now, I can write the transformation for `ExampleClass` below.
 
 ```kotlin
 val example = ExampleClass("s", 1.0, null, true, 1, 0.1, 2.0f, null)
 val transformedExample = example.toTableRow()
 ```
 
-How about the transforming a data class into Google BigQuery [TableSchema](https://cloud.google.com/bigquery/docs/schemas)? 
-That is a bit involved but also straightforward. In this case we want to transform `ExampleClass` data class into the following schema
+How about transforming a data class into Google BigQuery [TableSchema](https://cloud.google.com/bigquery/docs/schemas)?
+That is a bit involved but also straightforward. In this case, we want to transform the `ExampleClass` data class into the following schema.
 
 ```
 ExampleClass TableSchema
@@ -121,9 +121,9 @@ private fun KClassifier?.determineType(): String {
 }
 ```
 
-The first extension function is the exposed function which returns Google BigQuery `TableSchema` class.
-The other two private functions are used to determine the mode, based on the nullability of each property, and the type, respectively. 
-Hence, I can simply create a schema out of `ExampleClass` data class by simply writing as follows.
+The first extension function is the exposed function, which returns Google BigQuery `TableSchema` class.
+The other two private functions determine the mode (based on the nullability of each property) and the type, respectively.
+Hence, I can create a schema out of the `ExampleClass` data class by simply writing.
 
 ```kotlin
 val schema = ExampleClass::class.toTableSchema()
