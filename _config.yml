@@ -80,6 +80,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpranantha"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=VgqFe_kAAAAJ&hl=nl#"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"

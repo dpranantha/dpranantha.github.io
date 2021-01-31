@@ -5,7 +5,7 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
-  - title: "Comment Policy"
+  - title: "Profile"
+    url: /profile/
+  - title: "Policy"
     url: /comment-policy/
