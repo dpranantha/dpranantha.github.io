@@ -550,6 +550,11 @@ However, if we run the application, it will give you the same processing time (a
 
 ![Kotlin flag true](/assets/images/kotlin-coroutine/kotlin-flag-true.png "processing time for Kotlin flag `true`")
 
+As mentioned above, we keep our objectives:
+1. Existing unit tests should remain valid with no/little adjustment.
+2. Additional unit tests are created to check concurrency.
+3. Integration tests should remain valid.
+
 In the next part, we will discuss refactoring `AggregateService` into Kotlin codebase and make the whole flow 
 becoming asynchronous non-blocking Kotlin codebase.
 
