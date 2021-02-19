@@ -244,7 +244,11 @@ public class AggregatorService {
     public ProductSummary getProductSummary(String productId) throws ProductNotFoundException {
         final ProductCatalog productCatalog = productCatalogService.getProductCatalog(productId)
                 .orElseThrow(() -> new ProductNotFoundException("Product can't be found!"));
-        final CompletableFuture<Optional<ProductDescription>> productDescriptionAsync = getProductDescriptionReroute(productId);  //the call change
+        final CompletableFuture<Optional<ProductDescription>> productDescriptionAsync = getProductDescriptionReroute(productId)
+                .exceptionally(t -> {
+                    logger.error("Error retrieving data for product description {}", t.getCause().getLocalizedMessage());
+                    return Optional.empty();
+                });  //the call change
         final List<ProductOfferAndSeller> productOfferAndSellers = getProductOfferAndSellers(productId);
         final Pair<List<String>, Double> productReviews = getProductReviews(productId);
         final Optional<ProductDescription> productDescription = productDescriptionAsync.join(); //blocking future
@@ -256,11 +260,7 @@ public class AggregatorService {
     //additional method to reroute getting product description based on the injected flag
     private CompletableFuture<Optional<ProductDescription>> getProductDescriptionReroute(String productId) {
         if (useKotlin) {
-            return productDescriptionServiceKt.getProductDescriptionJavaCall(productId)
-                    .exceptionally(t -> {
-                       logger.error("Error retrieving data for product description {}", t.getCause().getLocalizedMessage());
-                       return Optional.empty();
-                    });
+            return productDescriptionServiceKt.getProductDescriptionJavaCall(productId);
         } else  {
             return CompletableFuture.supplyAsync(() -> productDescriptionService.getProductDescription(productId));
         }
