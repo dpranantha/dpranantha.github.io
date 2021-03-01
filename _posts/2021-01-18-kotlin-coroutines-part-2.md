@@ -355,7 +355,7 @@ We still keep our objectives:
 3. Integration tests should remain valid.
 
 A conclusion is that composing Kotlin coroutines are challenging. Using Kotlin flow can help with its useful operator,
-albeit not as extended as reactive streams implementation such as [rxJava](https://github.com/ReactiveX/RxJava) 
+albeit not as extensive as reactive streams implementation such as [rxJava](https://github.com/ReactiveX/RxJava) 
 and [Spring Reactor](https://projectreactor.io/).
 
 In the next part, we will discuss moving `AggregateController` into Kotlin codebase, removing all Java codes, 
