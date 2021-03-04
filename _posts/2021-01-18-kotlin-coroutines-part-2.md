@@ -286,11 +286,6 @@ class AggregatorServiceKt(
         return Pair.of(allReviews, rating)
     }
 
-    private fun <T, R> Flow<T>.concurrentMap(scope: CoroutineScope, concurrencyLevel: Int, transform: suspend (T) -> R): Flow<R> = this
-        .map { scope.async { transform(it) } }
-        .buffer(concurrencyLevel)
-        .map { it.await() }
-
     companion object {
         private val logger = LoggerFactory.getLogger(AggregatorServiceKt::class.java)
     }
