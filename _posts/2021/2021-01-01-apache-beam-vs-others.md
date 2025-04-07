@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Using Apache Beam vs other frameworks for bulk data processing"
 permalink: /using-apache-beam-vs-other-frameoworks-for-bulk-data-processing
 date: 2021-01-01 14:15:00+01:00

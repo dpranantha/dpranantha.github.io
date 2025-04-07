@@ -1,16 +1,31 @@
 ---
-permalink: /profile/
-title: "Profile"
+layout: single
+title: "About"
+permalink: /about/
 author_profile: true
 ---
 
-I am a software/data engineer and a cat lover living in the Netherlands. I code mostly in JVM languages (Java/Kotlin/Scala) and Python.
+Hi, I'm a freelance software engineer and data scientist based in the Netherlands. After more than a decade solving complex engineering problems in large organizations, I decided to break away from the system and focus on the kind of work that truly energizes me.
 
-I received my Ph.D. degree in January 2015 from TU Eindhoven and the University of Genoa as part of the Erasmus Mundus Joint Doctorate Program (EMJD). I worked on
-serious games, focusing on relations between flow and learning and recognizing flow via physiological signals.
-The research output is available [here](https://research.tue.nl/en/publications/experiments-on-flow-and-learning-in-games-creating-services-to-su).
-- keywords: flow, learning, physiological signals, user state classification, support vector machine (SVM)
+I specialize in:
+- **Machine learning systems** that go beyond notebooks—robust, scalable, and in production
+- **Real-time and session-based recommendations** that drive value and personalization
+- **Taming complexity** in data, infrastructure, and product decision-making
 
-I studied multimedia computing for my master degree at [KAIST](https://kaist.ac.kr/kr/) in South Korea. The research
-output is available [here](https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=392795&se=t0&ty=B&_csrf=7587c794-40f3-4c6a-9c02-4618628d1391).
-- keywords: MPEG Scalable Video Coding, quantization, bit rate control
+---
+
+## 🧭 Why I Work This Way
+
+I believe good engineering is about **clarity and care**—not just cleverness.
+
+Over the years, I’ve seen how powerful it is when teams align technical decisions with user needs and long-term strategy. I now partner with companies who value that kind of deep, intentional thinking.
+
+Whether it's helping your team set up the right architecture, shipping a new recommendation engine, or coaching through a messy refactor—I bring experience, curiosity, and a hands-on mindset.
+
+---
+
+## 🌍 Working With Me
+
+I work with teams in the Netherlands, Belgium, or remote-first setups. Flexible on structure: short-term, long-term, advisory, or implementation.
+
+Let’s build something that matters.

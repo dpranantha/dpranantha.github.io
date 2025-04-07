@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Insights from a Rust Conference - Rustlab IT 2023"
 permalink: /insight-from-rustlab-it-2023
 date: 2023-12-12 11:30:00+01:00

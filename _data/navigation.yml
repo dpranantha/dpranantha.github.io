@@ -1,11 +1,10 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
+  - title: "Blog"
+    url: /blog/
   - title: "Tags"
     url: /tags/
-  - title: "Profile"
-    url: /profile/
-  - title: "Policy"
-    url: /comment-policy/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+  

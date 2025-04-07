@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Kotlin coroutines and Java: How do they interoperate? - Part 2"
 permalink: /kotlin-coroutines-java-interoperate-part-2
 date: 2021-03-01 16:55:00+01:00

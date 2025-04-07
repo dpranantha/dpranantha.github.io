@@ -1,7 +1,36 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "Engineering clarity from complexity"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/kunsthal.jpg
+  caption: "Photo by Danu Pranantha"
+excerpt: "I design and build intelligent systems with data, ML, and code."
+intro:
+  - excerpt: |
+      I’m a seasoned software engineer and data scientist with over a decade of experience building scalable, production-grade systems — especially in personalization, real-time recommendations, and machine learning.
+      
+      After years in large organizations, I open myself to work independently with companies who care about clarity, quality, and meaningful solutions.
+
+feature_row:
+  - image_path: /assets/images/icon-ml.png
+    title: "Machine Learning Systems"
+    excerpt: "End-to-end ML solutions — from experimentation to deployment."
+  - image_path: /assets/images/icon-recsys.svg
+    title: "Recommendation Engines"
+    excerpt: "Real-time, session-based recommendations built for scale."
+  - image_path: /assets/images/icon-eng.svg
+    title: "Complex Engineering"
+    excerpt: "Solving hard problems in data architecture and system design."
+
+call_to_action:
+  - excerpt: "Looking for a thinking partner or a hands-on expert? Let’s talk. [Contact me](/contact/)"
 ---
+
+
+{% include feature_row id="intro" %}
+
+{% include feature_row %}
+
+{% include feature_row id="call_to_action" %}

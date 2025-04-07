@@ -1,0 +1,42 @@
+/* Post layout styles */
+.post {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.post-content {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.post-navigation {
+  margin-top: 30px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.post-navigation a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.post-navigation a:hover {
+  text-decoration: underline;
+}

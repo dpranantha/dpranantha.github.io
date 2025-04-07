@@ -1,0 +1,39 @@
+---
+layout: default  # Use the default layout
+---
+
+<head>
+    <!-- Existing links and meta tags -->
+    <link rel="stylesheet" href="{{ "/assets/css/post.css" | relative_url }}">
+</head>
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      Posted on {{ page.date | date: "%B %d, %Y" }}
+      {% if page.author %}
+        by <span class="post-author">{{ page.author }}</span>
+      {% endif %}
+      {% if page.tags %}
+        <br>Tags: <span class="post-tags">{{ page.tags | join: ', ' }}</span>
+      {% endif %}
+    </p>
+  </header>
+
+  <section class="post-content">
+    {{ content }}
+  </section>
+  
+  {% if page.next %}
+    <nav class="post-navigation">
+      <a href="{{ page.next.url | relative_url }}" class="previous-post">← Previous: {{ page.next.title }}</a>
+    </nav>
+  {% endif %}
+
+  {% if page.previous %}
+    <nav class="post-navigation">
+      <a href="{{ page.previous.url | relative_url }}" class="next-post">Next: {{ page.previous.title }} →</a>
+    </nav>
+  {% endif %}
+</article>

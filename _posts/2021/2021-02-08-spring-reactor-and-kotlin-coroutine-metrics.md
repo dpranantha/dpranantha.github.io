@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Measuring execution time in Spring Reactor Mono and Kotlin coroutine"
 permalink: /measuring-exec-time-mono-and-kotlin-coroutine
 date: 2021-02-09 21:30:00+01:00

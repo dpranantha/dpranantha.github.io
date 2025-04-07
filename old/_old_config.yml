@@ -15,12 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 url: https://dpranantha.github.io
 #baseurl:
-title: "Engineering Clarity from Complexity"
-name: "Danu Pranantha"
 description: >- # this means to ignore newlines until "baseurl:"
-  Freelance engineer focused on data, ML, and complex systems.
+  An alien and a coder in the Netherlands who likes simplicity
+twitter_username:
 github_username: dpranantha
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: contrast
 search: true
 analytics:
   provider: "google-gtag"
@@ -36,12 +35,11 @@ google_site_verification: "qYI_cVFjCOKXvhCADGxZxBOvavxxw8C-q4Tmr0_zXy8"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-
 # Outputting
-permalink: /blog/:title/
-paginate: 5
-paginate_path: /blog/page:num/
-timezone: Europe/Amsterdam
+permalink: /:categories/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Amsterdam # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -66,16 +64,18 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-toc
 
 author:
   name   : "Danu Pranantha, PhD"
   avatar : "/assets/images/my-cat.jpg"
-  bio    : "A seasoned engineer bridging software, data, and machine learning."
+  bio    : "A coding alien lives in the Netherlands."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dpranantha.github.io"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpranantha"
@@ -84,9 +84,40 @@ author:
       url: "https://www.linkedin.com/in/danupranantha/"
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=VgqFe_kAAAAJ&hl=nl#"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
