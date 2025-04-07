@@ -70,7 +70,7 @@ plugins:
 
 author:
   name   : "Danu Pranantha, PhD"
-  avatar : "/assets/images/my-cat.jpg"
+  avatar : "/assets/images/dp.jpeg"
   bio    : "A seasoned engineer bridging software, data, and machine learning."
   links:
     - label: "Website"
