@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/images/icon-ml.png
     title: "Machine Learning Systems"
     excerpt: "End-to-end ML solutions — from experimentation to deployment."
-  - image_path: /assets/images/icon-recsys.svg
+  - image_path: /assets/images/alternatives.png
     title: "Recommendation Engines"
     excerpt: "Real-time, session-based recommendations built for scale."
   - image_path: /assets/images/icon-eng.svg
@@ -28,8 +28,9 @@ call_to_action:
   - excerpt: "Looking for a thinking partner or a hands-on expert? Let’s talk. [Contact me](/contact/)"
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/customs.css' | relative_url }}">
 
-{% include feature_row id="intro" %}
+{% include feature_row id="intro" class="full-width-intro" %}
 
 {% include feature_row %}
 

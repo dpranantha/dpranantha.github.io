@@ -5,6 +5,8 @@ permalink: /projects/
 author_profile: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/customs.css' | relative_url }}">
+
 Here’s a glimpse of the kinds of problems I like solving and systems I’ve worked on.
 
 ---
