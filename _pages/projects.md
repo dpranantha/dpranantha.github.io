@@ -16,25 +16,25 @@ Here’s a glimpse of the kinds of problems I like solving and systems I’ve wo
 
 ---
 
-### 🧠 Session-Based Recommendation Engine 
-**Role:** Lead Engineer  
+### 🧠 Session-Based Recommendation Engine (@bol.)
+**Role:** Lead Engineer 
 Built and deployed a real-time recommendation engine using memory-efficient Rust indices and Python models. Improved engagement by 15% and reduced latency to < 10ms.
 
 ---
 
-### 📦 Sponsored Product Recommendation Indices
+### 📦 Sponsored Product Recommendation Indices (@bol.)
 **Role:** Architect + Lead Engineer  
 Designed, built, and deployed recommendation indices for sponsored product recommendations using multiple models across both the data pipeline and serving layers, successfully replacing the legacy system and achieving target GMV before year-end.
 
 ---
 
-### 🚀 ML Experimentation Pipeline  
+### 🚀 ML Experimentation Pipeline  (@bol.)
 **Role:** Architect + Lead Engineer  
 Designed an end-to-end machine learning experimentation platform that allowed data scientists to go from idea to deployment in days. Powered A/B testing and metric tracking with full reproducibility.
 
 ---
 
-### 📊 Harnessing Behavioral Data for Smarter Recommendations
+### 📊 Harnessing Behavioral Data for Smarter Recommendations (@bol.)
 **Role:** Data Scientist  
 Analyzed interaction patterns, session data, and content metadata to uncover user behavior insights that informed experimentation. Developed recommendation models to enhance relevance and improve overall personalization.
 
@@ -46,7 +46,7 @@ Architected and led engineering efforts for personalization systems, including r
 
 ---
 
-### 🌐 Custom Websites with Responsive Design and Product Showcases
+### 🌐 Custom Websites with Responsive Design and Product Showcases (@bol., [@mile.bv](https://milebv.eu/))
 Collaborated with small business clients to build responsive websites tailored to their branding and product offerings. Ensured seamless display of product information, mobile compatibility, and intuitive navigation to enhance customer engagement.
 
 ---
