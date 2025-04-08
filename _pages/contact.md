@@ -3,6 +3,11 @@ layout: single
 title: "📬 Contact"
 permalink: /contact/
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/kunsthal.jpg
+  caption: "Photo by Danu Pranantha"
 ---
 
 Interested in working together, or just want to connect?

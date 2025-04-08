@@ -3,6 +3,11 @@ layout: single
 title: "About"
 permalink: /about/
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/kunsthal.jpg
+  caption: "Photo by Danu Pranantha"
 ---
 
 Hi, I'm a freelance software engineer and data scientist based in the Netherlands. After more than a decade solving complex engineering problems in large organizations, I decided to break away from the system and focus on the kind of work that truly energizes me.

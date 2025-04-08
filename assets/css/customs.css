@@ -18,6 +18,16 @@
 
 
 /* Make post listing use full width */
+.layout--categories .initial-content,
+.layout--categories .archive {
+  max-width: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+/* Make post listing use full width */
 .layout--single .initial-content,
 .layout--single .page {
   max-width: none;
@@ -28,6 +38,14 @@
 
 /* Make the intro feature row span full width */
 .layout--splash .initial-content .feature__wrapper:first-of-type .feature__item {
+  max-width: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Make the intro feature row span full width */
+.layout--splash .initial-content .feature__wrapper:last-of-type .feature__item {
   max-width: none;
   width: 100%;
   padding-left: 2rem;
