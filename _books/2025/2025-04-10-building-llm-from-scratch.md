@@ -59,7 +59,7 @@ The use of Adam vs. AdamW optimizers is explained in the context of regularizati
 Text generation is not just about prediction; it's also about controlling randomness and creativity. This section offers an excellent breakdown of decoding techniques:
 - Temperature scaling to adjust output distribution sharpness
 - Top-k sampling to limit the candidate pool
-- Discussion of the top-p (nucleus sampling) technique, even though it's only mentioned in passing—something that could be expanded on
+- Top-p (nucleus sampling) technique is not discussed but it is something we can search outside the book
 - Saving and loading trained models, including loading pretrained GPT-2 from OpenAI
 
 ### 🧪 Fine-Tuning for Classification
