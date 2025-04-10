@@ -1,7 +1,8 @@
 ---
-title: "Categorized posts"
-layout: categories
-permalink: /categories/
+title: "Tagged posts"
+permalink: /tags/
+layout: tags2
+collection: blog
 author_profile: false
 header:
   overlay_color: "#000"
@@ -11,4 +12,3 @@ header:
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/customs.css' | relative_url }}">
-<!-- Your blog content here -->

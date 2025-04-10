@@ -11,6 +11,7 @@ tags:
 - Metrics
 - Micrometer
 - Prometheus
+collection: blog
 ---
 
 I use Kotlin coroutine and Spring Reactor extensively for back-end development. 
@@ -307,7 +308,7 @@ which is mono and coroutine interoperability in another blog post.
 - To perform such task, we followed the pattern of the libraries in general. 
 - Beware of mixing executors and dispatchers for Kotlin coroutine. Do this when you know what it entails.
 - `@Timer` and `@Async` are suitable for Java `CompletableFuture`. Alternatively, we can transform a `suspend fun` 
-  as a common `fun` returning `CompletableFuture` via [Kotlin coroutine jdk8 library]({% post_url 2021/2021-01-18-kotlin-coroutines %}) 
+  as a common `fun` returning `CompletableFuture` via [Kotlin coroutine jdk8 library]({{ site.baseurl }}/blog/2021/2021-01-18-kotlin-coroutines) 
   if we use Kotlin coroutine.
 
 Have fun coding!

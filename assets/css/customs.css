@@ -7,6 +7,14 @@
   padding-right: 2rem;
 }
 
+.layout--collection .initial-content,
+.layout--collection .archive {
+  max-width: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 /* Make post listing use full width */
 .layout--tags .initial-content,
 .layout--tags .archive {
@@ -18,8 +26,26 @@
 
 
 /* Make post listing use full width */
+.layout--tags2 .initial-content,
+.layout--tags2 .archive {
+  max-width: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Make post listing use full width */
 .layout--categories .initial-content,
 .layout--categories .archive {
+  max-width: none;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Make post listing use full width */
+.layout--categories2 .initial-content,
+.layout--categories2 .archive {
   max-width: none;
   width: 100%;
   padding-left: 2rem;
@@ -51,3 +77,4 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
+

@@ -10,6 +10,7 @@ tags:
 - Backend development
 - Machine learning
 - Data science
+collection: blog
 ---
 
 Rust, a programming language celebrated for its commitment to performance, reliability, and memory safety, has found substantial success in domains like kernel and system programming. Its memory model, ensuring predictable performance and reliability without relying on a garbage collector, positions it as an enticing option for specific backend scenarios. Despite these advantages, Rust faces challenges that have slowed its widespread adoption. This article delves into the potential niche for Rust, examining both the obstacles and prospects within this dynamic landscape.

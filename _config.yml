@@ -38,13 +38,45 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
-permalink: /blog/:title/
-paginate: 5
-paginate_path: /blog/page:num/
-timezone: Europe/Amsterdam
+# paginate: 5
+# paginate_path: /blog/page:num/
+# timezone: Europe/Amsterdam
+
+# Navigation structure
+navigation:
+  style: dropdowns
+
+header:
+  nav:
+    dropdowns: true
 
 include:
   - _pages
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+  books:
+    output: true
+    permalink: /books/:title/
+  posts:
+    output: true
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_tags: true
+      show_categories: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -67,6 +99,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-toc
+  - jekyll-remote-theme
 
 author:
   name   : "Danu Pranantha, PhD"

@@ -1,0 +1,22 @@
+---
+layout: categories
+---
+
+<head>
+  <!-- Existing links and meta tags -->
+  <link rel="stylesheet" href="{{ "/assets/css/customs.css" | relative_url }}">
+</head>
+
+<!-- {% assign categories = site.blog | map: "categories" | join: "," | split: "," | uniq | sort %} -->
+{% for category in categories %}
+  <h2 id="{{ category | slugify }}">{{ category }}</h2>
+  <ul>
+    {% for post in site.blog %}
+      {% if post.categories contains category %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

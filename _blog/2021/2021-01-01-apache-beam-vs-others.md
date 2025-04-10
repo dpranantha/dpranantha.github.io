@@ -12,6 +12,7 @@ tags:
 - Apache Spark
 - Kotlin
 - Google Cloud Platform
+collection: blog
 ---
 
 [Apache Beam](https://beam.apache.org/) is a unified programming model for implementing batch and stream processing. It can run on

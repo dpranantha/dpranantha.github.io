@@ -9,6 +9,7 @@ tags:
 - Kotlin
 - Coroutine
 - Spring
+collection: blog
 ---
 
 If we code with Kotlin, then Kotlin coroutine is a semi-obvious choice for asynchronous and concurrent programming. There are

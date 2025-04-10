@@ -12,6 +12,7 @@ tags:
 - Kotlin Object
 - Member Properties
 - Google BigQuery API
+collection: blog
 ---
 
 I had a use case to transform multiple data classes into the [Google BigQuery TableRow](https://developers.google.com/resources/api-libraries/documentation/bigquery/v2/java/latest/index.html?com/google/api/services/bigquery/model/TableRow.html) model.

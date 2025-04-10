@@ -1,0 +1,22 @@
+---
+layout: tags
+---
+
+<head>
+  <!-- Existing links and meta tags -->
+  <link rel="stylesheet" href="{{ "/assets/css/customs.css" | relative_url }}">
+</head>
+
+<!-- {% assign tags = site.blog | map: "tags" | join: "," | split: "," | uniq | sort %} -->
+{% for tag in tags %}
+  <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+  <ul>
+    {% for post in site.blog %}
+      {% if post.tags contains tag %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

@@ -9,10 +9,11 @@ tags:
 - Kotlin
 - Coroutine
 - Spring
+collection: blog
 ---
 
 This post continues what we have left off last time when migrating [Java blocking codebase into Kotlin coroutine and how they interoperate
-with each other]({% post_url 2021/2021-01-18-kotlin-coroutines %}). To summarize, we have migrated `ProductDescriptionService` from Java to Kotlin
+with each other]({{ site.baseurl }}/blog/2021/2021-01-18-kotlin-coroutines). To summarize, we have migrated `ProductDescriptionService` from Java to Kotlin
 and enabled it in `AggregateService` via a `useKotlin` switch. Moreover, we have created unit tests in Kotlin version, whereas the existing Java version
 has some minor adjustments. The timing in integration tests is adjusted as we're moving towards asynchronous (and concurrent) programming.
 
