@@ -20,11 +20,9 @@ As a developer already familiar with languages like Kotlin, Java, and Rust, I de
 
 The project is structured with two server versions—using Gin and Fiber, two popular Go web frameworks. It enables local LLM inference via Ollama and supports:
 
-✅ REST and GraphQL APIs
-
-✅ Streaming via WebSocket and SSE
-
-✅ Simple React-based UI for interaction
+- ✅ REST and GraphQL APIs
+- ✅ Streaming via WebSocket and SSE
+- ✅ Simple React-based UI for interaction
 
 You can toggle between Gin and Fiber using a single environment variable:
 
