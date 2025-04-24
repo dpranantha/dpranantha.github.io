@@ -4,7 +4,7 @@ title: " Learning Go by Building a Local LLM API: My Journey with Gin, Fiber, an
 permalink: /2025-04-24-learning-go-build-llm-api
 date: 2025-04-24 15:15:00+01:00
 categories:
-- Data science
+- Software development
 tags:
 - Go
 - Golang
