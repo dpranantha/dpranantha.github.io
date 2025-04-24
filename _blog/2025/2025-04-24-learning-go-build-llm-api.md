@@ -10,10 +10,9 @@ tags:
 - Golang
 - LLM
 - Large Language Model
+- Backend engineering
 collection: blog
 ---
-
-### 🚀 Introduction
 
 As a developer already familiar with languages like Kotlin, Java, and Rust, I decided to dive into the world of Go by building something hands-on and exciting: a Local LLM API using Go and React. My goal was to implement an API supporting REST, Server-Sent Events (SSE), and WebSocket communication with a simple front-end for interaction. Along the way, I learned a lot—not just about Go, but also about structuring scalable projects, integrating with local LLMs like LLaMA 2 via Ollama, and using frontend technologies I hadn’t fully explored before.
 
