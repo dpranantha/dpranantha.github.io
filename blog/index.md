@@ -10,12 +10,6 @@ header:
 collection: blog
 sort_by: date
 sort_order: reverse
-# pagination:
-#   enabled: true
-#   collection: blog
-#   per_page: 5
-#   sort_field: 'date'
-#   sort_reverse: false
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/customs.css' | relative_url }}">
