@@ -19,8 +19,8 @@ The modern productivity mindset often runs on Chronos time—tight schedules, ch
 
 Let’s look at the difference:
 
-| Mindful | Productivity | 	Productivity Mania | 
-| --------| -------------| --------------------| 
+| Mindful Productivity | 	Productivity Mania | 
+| ---------------------| --------------------| 
 | Rest, reflection, meaningful flow	|  Cramming everything into a schedule |
 | Self-expression | 	Meeting external expectations | 
 | Energy-based decision making | 	Rigid time management | 
@@ -42,7 +42,7 @@ Le Cunff doesn’t argue that we should reject Chronos—after all, we live in a
 ### The Three Magic Windows
 To act with intention, we need to understand our inner landscape. Le Cunff encourages us to observe three key aspects of our experience: physical, cognitive, and emotional windows.
 
-1. Physical
+#### 1. Physical
 
 Everyone has a magic window—a time of day when energy and clarity peak. Are you a morning person? Do you come alive at night?
 These rhythms shift with seasons, age, and hormones.
@@ -53,7 +53,8 @@ These rhythms shift with seasons, age, and hormones.
 
 - Respect your body, don’t push past it
 
-2. Cognitive
+#### 2. Cognitive
+
 Our brain’s executive function is limited.
 
 - Multitasking drains focus
@@ -64,7 +65,8 @@ Our brain’s executive function is limited.
 
 - Use your brain’s natural ebb and flow as a guide. Pay attention to when thinking feels fluid, and when it starts to strain.
 
-3. Emotional
+#### 3. Emotional
+
 Our emotional state directly affects how we work.
 
 - A little stress (eustress) sharpens performance
