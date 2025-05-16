@@ -11,6 +11,8 @@ header:
   caption: "Photo by Danu Pranantha"
 collection: books
 entries_layout: list
+sort_by: date
+sort_order: reverse
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/customs.css' | relative_url }}">
