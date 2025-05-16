@@ -2,7 +2,7 @@
 layout: post
 title: "Tiny Experiments, ACT: Designing Kairos in a Chronos World - Part 2"
 permalink: /2025-05-16-tiny-experiment-act
-date: 2025-05-16 16:25:00+01:00
+date: 2025-05-16
 categories:
 - Psychology
 tags:
