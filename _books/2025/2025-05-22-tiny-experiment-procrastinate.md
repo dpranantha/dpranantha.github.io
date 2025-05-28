@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tiny Experiments, ACT: Procrastination Is a Signal, Not a Shame - Part 3"
-permalink: /2025-05-16-tiny-experiment-procrastinate
+permalink: /2025-05-22-tiny-experiment-procrastinate
 date: 2025-05-22
 categories:
 - Psychology
