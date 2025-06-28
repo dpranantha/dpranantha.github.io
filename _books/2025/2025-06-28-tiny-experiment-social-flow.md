@@ -94,6 +94,11 @@ Of course, joining or creating a community can feel overwhelming. Not everyone w
 
 Building a community doesn’t mean having all the answers. It means creating a space where everyone’s curiosity can thrive.
 
+<p align="center">
+<img src="/assets/images/tiny-experiments/tapping-to-curiosity.png" alt="Tapping to curiosity" style="width:25%;height=25%;"/>
+</p>
+
+
 ### Build a Campfire, Not a Megaphone
 The metaphor Le Cunff uses is beautiful:
 

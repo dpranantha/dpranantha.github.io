@@ -31,7 +31,7 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "dpranantha"
-google_site_verification: "qYI_cVFjCOKXvhCADGxZxBOvavxxw8C-q4Tmr0_zXy8"
+google-site-verification: "m2zCIIMmMyXYxCAMabRxBsHIk0KpWd2Cw_y1f0HC8I8"
 
 # Build settings
 markdown: kramdown
