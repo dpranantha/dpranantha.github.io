@@ -55,6 +55,11 @@ Your format can evolve:
 
 The spotlight grows at your own pace.
 
+<p align="center">
+<img src="/assets/images/tiny-experiments/learning-in-public.png" alt="Learning in public" style="width:40%;height=40%;"/>
+</p>
+
+
 ### Radical Transparency: Learning with Others, Not Just for Them
 Public learning isn’t a performance,it’s a conversation. By sharing openly,highs, lows, mistakes, ideas in progress,we:
 
